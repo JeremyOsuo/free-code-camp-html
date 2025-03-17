@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey</h1>
+    <p id="description">Please take a few moments to complete this survey and help us improve</p>
+    <form id="survey-form">
+      <label id="name-label">Name: <input id="name" type="text" placeholder="enter name" required></label>
+      <label id="email-label">Email: <input id="email" type="email" placeholder="enter email" required></label>
+      <label id="number-label">Number: <input id="number" type="number" min="10" max="10" placeholder="enter number" required></label>
+      <label>Select:
+        <select id="dropdown">
+          <option>option</option>
+          <option>1</option>
+          <option>2</option>
+        </select>
+      </label>
+
+      <label><input type="radio" name="name" value="Preset one">Preset one</label>
+      <label><input type="radio" name="name" value="Preset two">Preset two</label>
+
+      <label>
+        <p>What do you want to be improved??</p><br>
+        <input type="checkbox" value="Quality of service">Quality of service<br>
+        <input type="checkbox" value="Pricing">Pricing<br>
+        <input type="checkbox" value="customer help">customer help<br>
+        <input type="checkbox" value="Quality of health">Quality of health<br>
+        <input type="checkbox" value="Improved facilities">Improved facilities<br>
+        <input type="checkbox" value="Better deals">Better deals<br>
+        </label>
+
+        <label><p>Comment Section</p>
+          <textarea placeholder="Write your comment here..."></textarea>
+        </label>
+        
+        <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>

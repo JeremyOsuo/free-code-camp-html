@@ -1,0 +1,15 @@
+body{
+  
+}
+
+form label{
+  display: block;
+  margin: 1rem auto;
+}
+
+#submit{
+  background-color: green;
+  color: white;
+  width: 100%;
+  padding: 9px;
+}
